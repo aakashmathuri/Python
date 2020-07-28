@@ -1,7 +1,7 @@
 text = "X-DSPAM-Confidence:    0.8475"
 ipos = text.find(':')
-#print(ipos)
-slice = text[ipos+5:]
-#print(slice)
-val = float(slice)
-print(val)
+print(ipos)
+slc = text[ipos + 5:]
+print(slc)
+vL = float(slc)
+print(vL)
